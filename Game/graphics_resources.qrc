@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/">
+        <file>offlinedata/bus.png</file>
+        <file>offlinedata/hero.png</file>
+        <file>offlinedata/murderer.png</file>
+        <file>offlinedata/stop.png</file>
+    </qresource>
+</RCC>

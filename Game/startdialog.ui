@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>StartDialog</class>
+ <widget class="QDialog" name="StartDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>419</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QPushButton" name="backButton">
+     <property name="text">
+      <string>Back</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="summary">
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;Welcome To NysseMeni!&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;To start the game, select the type of game you want to play&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;and press the start button.&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;Thank You!&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+     <property name="scaledContents">
+      <bool>false</bool>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QComboBox" name="gameTypeSelect">
+     <property name="currentText">
+      <string/>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLineEdit" name="playerName">
+     <property name="placeholderText">
+      <string>Enter your name here to start the game</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="StartButton">
+     <property name="text">
+      <string>Start</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="ScoresButton">
+     <property name="text">
+      <string>Score Board</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>StartButton</sender>
+   <signal>clicked()</signal>
+   <receiver>StartDialog</receiver>
+   <slot>accept()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>217</x>
+     <y>341</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>199</x>
+     <y>149</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
