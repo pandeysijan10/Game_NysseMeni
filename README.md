@@ -5,8 +5,8 @@ Name: Jetro Sihvonen, Sijan Pandey
 
 Student number: H291986, H293831
 
-**Game rules and controls:
-Game story:**
+**Game rules and controls:**
+**Game story:**
 
 In this game the player is a superhero who has been called to Tampere to stop a rampaging murderer. The murderer has escaped from a secret government facility and was part of a weapons program. He is now moving around the city centre in the buses and killing passengers on them. The player's task is to chase and capture the murderer using the buses (or running) before it’s too late. The government cannot give support to the hero, because this catastrophe must remain to secret. Capture the murderer before the public notices and there is a widespread panic. 
 
@@ -43,3 +43,6 @@ In the start window the game mode (multiplayer or single player) can be chosen. 
 8.	Simple AI: In single player mode, the murderer makes choices on which buses to get on, which buses to get off and which directions to walk to, depending on the location of the murderer and the hero by trying to move to the opposite direction of the hero.
 9.	Buses routes are designed to go even outside the map. In that case, if player is inside a bus that goes outside the map, the player to teleported back to the last stop it was in.
 10.	Players are notified if they press invalid keys. For example, a player can only get into a bus at a stop. So, if a player tries to get into a bus outside a stop, notification is provided.
+
+**Note:**
+The code in the folder Course was completely written by the course personnel. These parts are represented by blue and yellow color boxes in the class diagram provided in the User_Manual_and_Documentation file. 
